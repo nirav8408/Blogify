@@ -1,0 +1,115 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(22, 27, 34, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #30363d;
+    position: sticky;
+    top: 0;
+    z-index: 1050;
+}
+
+.dropdown-menu {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    z-index: 1050;
+}
+
+.dropdown-item {
+    color: #c9d1d9;
+}
+
+.dropdown-item:hover {
+    background-color: #30363d;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #58a6ff, #bc8cff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+    color: #c9d1d9 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #58a6ff !important;
+}
+
+/* Cards */
+.card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-color: #58a6ff;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #30363d;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    color: #f0f6fc;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #238636;
+    border-color: #2ea043;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2ea043;
+    border-color: #3fb950;
+}
+
+/* Forms */
+.form-control {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+}
+
+.form-control:focus {
+    background-color: #0d1117;
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 0.25rem rgba(88, 166, 255, 0.25);
+    color: #fff;
+}
+
+.form-label {
+    color: #8b949e;
+    font-weight: 500;
+}
